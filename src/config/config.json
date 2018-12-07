@@ -1,12 +1,39 @@
 {
-  "Referer": "https://blog.csdn.net/****",
+  "Referer": "https://blog.csdn.net/yumikobu",
   "cron": "0 * * * * ? *",
   "urls": [
     {
-      "url": "https://blog.csdn.net/****/****/****"
+      "url": "https://blog.csdn.net/yumikobu/article/details/82885582"
     },
     {
-      "url": "https://blog.csdn.net/****/****/****"
+      "url": "https://blog.csdn.net/yumikobu/article/details/80162205"
+    },
+    {
+      "url": "https://blog.csdn.net/yumikobu/article/details/84659854"
+    },
+    {
+      "url": "https://blog.csdn.net/yumikobu/article/details/84639025"
+    },
+    {
+      "url": "https://blog.csdn.net/yumikobu/article/details/83821771"
+    },
+    {
+      "url": "https://blog.csdn.net/yumikobu/article/details/83623992"
+    },
+    {
+      "url": "https://blog.csdn.net/yumikobu/article/details/83625220"
+    },
+    {
+      "url": "https://blog.csdn.net/yumikobu/article/details/83056523"
+    },
+    {
+      "url": "https://blog.csdn.net/yumikobu/article/details/82789686"
+    },
+    {
+      "url": "https://blog.csdn.net/yumikobu/article/details/80401122"
+    },
+    {
+      "url": "https://blog.csdn.net/yumikobu/article/details/80388619"
     }
   ]
 }

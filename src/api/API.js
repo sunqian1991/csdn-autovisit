@@ -1,6 +1,5 @@
 const http = require('http');
 const https = require('https');
-const express = require('express');
 
 class API{
   constructor(){
@@ -27,7 +26,10 @@ class API{
 
   httpsRequest = (url) => {
     const doRequest = new Promise((resolve, reject) => {
-      https.get(url, this.headers, (res) => {
+      https.get(url, {
+        headers: this.headers,
+        protocol: 'https:'
+      }, (res) => {
         resolve(res);
       }).on("error", (err) => {
         reject(new Error(err.message));
@@ -44,7 +46,10 @@ class API{
 
   httpRequest = (url) => {
     const doRequest = new Promise((resolve, reject) => {
-      http.get(url, this.headers, (res) => {
+      http.get(url, {
+        headers: this.headers,
+        protocol: 'http:'
+      }, (res) => {
         resolve(res);
       }).on("error", (err) => {
         reject(new Error(err.message));

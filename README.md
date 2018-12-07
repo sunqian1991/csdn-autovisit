@@ -40,7 +40,7 @@ npm run start
 
 - 这里执行的是开发代码，也可以使用build以后的生产代码
 ```shell
-npm run build        // 这里是热编译的
+npm run build
 
 node ./build/app.js
 ```
